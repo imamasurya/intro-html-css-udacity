@@ -1,0 +1,46 @@
+.form-field {
+	clear: both;
+	width: 50%;
+}
+
+.form-field label {
+	float: left;
+	text-align: right;
+	width: 30%;
+}
+
+.form-field input {
+	float: right;
+	margin-right: 30%;
+	width: 30%;
+	text-align: left;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	padding: 1%;
+}
+
+#submit {
+	margin-top: 1%;
+	text-align: center;
+	border: 1px solid #eee;
+	background-color: #ddd;
+	padding: 1%;
+	border-radius: 5px;
+	color: #333;
+	width: 32.5%
+}
+
+#submit:hover {
+	background-color: #444;
+	color: #fff;
+}
+
+fieldset {
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+legend {
+	text-transform: lowercase;
+	color: #555;
+}

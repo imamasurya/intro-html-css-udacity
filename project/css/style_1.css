@@ -1,0 +1,81 @@
+/* if set the width 100% of body, layout will overflow and nothing space in the right side, 
+so better use 99% for width. Another note is if width 100% and 
+margin should be set 0 */
+body {
+	font-family: arial, helvetica, sans-serif;
+	width: 99%;
+
+}
+
+/* container of the page 
+like canvas on painting (?) */
+#container {
+	
+	width: 100%;
+}
+
+#header {
+	background-color: #abacab;
+	padding: 10px;
+}
+
+/* general 'rules' for nav or menu */
+#menu {
+	float: left;
+	width: 100%;
+	background-color: #0c0c0c;
+}
+
+/* set inline list item of nav */
+#menu ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+/* nav item block */
+#menu li a {
+	display: block;
+	text-decoration: none;
+	border-right: 2px solid #fff;
+	padding: 3px 10px;
+	float: left;
+	color: #fff;
+}
+
+/* if cursor under the nav item */
+#menu li a:hover {
+	background-color: #ccc;
+}
+
+/* generally, contain content, sidebar, 
+and footer section */
+#mainContainer {
+	float: left;
+	width: 100%;
+}
+
+#content {
+	clear: left;
+	float: left;
+	width: 65%;
+	padding: 20px 0;
+	margin: 0 0 0 5%;
+	display: inline;
+}
+
+#sidebar {
+	float: right;
+	width: 30%;
+	padding: 20px 0;
+	margin: 0;
+	display: inline;
+	background-color: #ccc;
+}
+
+#footer {
+	clear: left;
+	background-color: #ccc;
+	text-align: center;
+	padding: 20px;
+	height: 1%;
+}
